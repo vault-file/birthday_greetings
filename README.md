@@ -1,1 +1,1 @@
-# birthday_greetings
+# birthday-greetings
