@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Birthday Greetings</title>
+</head>
+
+<body>
+
+    <div class="header_container">
+
+        <header class="header_main">
+
+            <h1 class="headline1" id="greeting_headline">
+
+                <span class="span1">
+                    Happy
+                </span>
+
+                <span class="span2">
+
+                    <span>2</span>
+
+                    <span class="candle" id="candle" title="Click the candle">
+                        <span class="flame" id="flame"></span>
+
+                        <span class="smoke"></span>
+
+                        <span class="wick"></span>
+
+                        <span class="candle-number">
+                            
+                        </span>
+                    </span>
+
+                    <span>st Birthday</span>
+
+                </span>
+
+                <span class="span3">
+                    LOVE
+                </span>
+
+            </h1>
+
+            <p class="instruction" id="instruction">
+                Click the candle 🕯️
+            </p>
+
+            <p class="countdown" id="countdown"></p>
+
+        </header>
+
+    </div>
+
+    <audio id="candleSound" src="sound_effects/blowing-out-the-candle.mp3" preload="auto"></audio>
+
+    <script src="candle_animation.js"></script>
+
+</body>
+
+</html>
