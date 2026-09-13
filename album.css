@@ -134,6 +134,7 @@ body {
 
 .photo-stack.ending {
     width: min(92vw, 720px);
+    border-radius: 10px;
     height: 230px;
     aspect-ratio: auto;
     overflow: hidden;
