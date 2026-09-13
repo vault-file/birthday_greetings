@@ -21,7 +21,7 @@ candle.addEventListener("click", function () {
     instruction.textContent =
         "Make a wish, Birthday Girl! ✨🌸";
 
-    let seconds = 30;
+    let seconds = 10;
 
     countdown.textContent = seconds;
 
